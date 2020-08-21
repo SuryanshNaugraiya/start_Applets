@@ -15,5 +15,7 @@ public class MakingCar extends Applet {
     public void paint(Graphics g) {
         g.setColor(Color.red);
         g.fillRect(200,100,200,100);
+        g.setColor(Color.red);
+        g.fillRect(100,100,300,50);
     }
 }
