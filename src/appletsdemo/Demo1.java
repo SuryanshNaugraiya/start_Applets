@@ -15,6 +15,7 @@ public class Demo1 extends Applet {
         g.drawString("My first demo", 100, 50);
         g.drawLine(100,200,100,0);
 
+        g.fillRect(100,100,300,50);
 
     }
 }
