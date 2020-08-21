@@ -1,4 +1,16 @@
 package appletsdemo;
 
-public class MovingBall {
+import java.applet.Applet;
+import java.awt.*;
+
+public class MovingBall extends Applet {
+    @Override
+    public void start() {
+
+    }
+
+    @Override
+    public void paint(Graphics g) {
+
+    }
 }
