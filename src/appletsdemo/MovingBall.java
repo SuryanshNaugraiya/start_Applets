@@ -31,6 +31,8 @@ public class MovingBall extends Applet implements Runnable{
                 Thread.sleep(100);
                 x=x+5;
                 y=y+5;
+                System.out.println("x: "+x);
+                System.out.println("y: "+y);
                 repaint();
 
             }
