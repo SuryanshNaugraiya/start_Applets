@@ -12,6 +12,6 @@ public class MovingBall extends Applet {
 
     @Override
     public void paint(Graphics g) {
-
+        g.fillOval(100,100,50,50);
     }
 }
