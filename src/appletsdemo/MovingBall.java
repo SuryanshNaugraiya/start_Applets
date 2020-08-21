@@ -4,7 +4,9 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class MovingBall extends Applet implements Runnable{
+
     int x = 100 , y = 100;
+    Thread t;
 
     @Override
     public void start() {
