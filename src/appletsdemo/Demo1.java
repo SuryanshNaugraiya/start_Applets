@@ -11,6 +11,7 @@ public class Demo1 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.setFont(new Font("Arial",Font.BOLD,14));
+        g.setFont(new Font("Arial", Font.BOLD, 14));
+        g.drawString("My first demo", 100, 50);
     }
 }
