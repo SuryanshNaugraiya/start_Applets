@@ -13,6 +13,7 @@ public class MakingCar extends Applet {
 
     @Override
     public void paint(Graphics g) {
-
+        g.setColor(Color.red);
+        g.fillRect(200,100,200,100);
     }
 }
