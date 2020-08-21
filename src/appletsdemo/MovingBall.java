@@ -6,7 +6,8 @@ import java.awt.*;
 public class MovingBall extends Applet {
     @Override
     public void start() {
-
+        setSize(800,600);
+        setBackground(Color.yellow);
     }
 
     @Override
