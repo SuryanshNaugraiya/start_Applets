@@ -4,6 +4,8 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class MovingBall extends Applet implements Runnable{
+    int x = 100 , y = 100;
+
     @Override
     public void start() {
         setSize(800,600);
@@ -12,7 +14,7 @@ public class MovingBall extends Applet implements Runnable{
 
     @Override
     public void paint(Graphics g) {
-        g.fillOval(100,100,50,50);
+        g.fillOval(x, y ,50,50);
     }
 
     @Override
