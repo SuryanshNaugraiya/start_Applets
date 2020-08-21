@@ -24,13 +24,21 @@ public class MovingBall extends Applet implements Runnable{
     @Override
     public void run() {
 
-        try {
+        while (true){
 
-            Thread.sleep(100);
-        }
-        catch (InterruptedException e) {
+            try {
 
-            e.printStackTrace();
+                Thread.sleep(100);
+                x=x+5;
+                y=y+5;
+                repaint();
+
+            }
+            catch (InterruptedException e) {
+
+                e.printStackTrace();
+            }
         }
+
     }
 }
