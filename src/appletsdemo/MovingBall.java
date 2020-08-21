@@ -19,6 +19,6 @@ public class MovingBall extends Applet implements Runnable{
 
     @Override
     public void run() {
-
+        Thread.sleep(100);
     }
 }
