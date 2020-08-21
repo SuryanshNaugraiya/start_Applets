@@ -13,6 +13,7 @@ public class KeyboardListener extends Applet implements KeyListener {
     public void start() {
         setSize(800,600);
         setBackground(Color.yellow);
+        addKeyListener(this);
     }
 
     @Override
