@@ -6,6 +6,7 @@ import java.awt.*;
 public class Demo1 extends Applet {
 
     public void start(){
+        setSize(500,400);
 
     }
 
