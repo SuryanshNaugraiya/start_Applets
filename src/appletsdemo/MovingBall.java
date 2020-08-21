@@ -12,6 +12,7 @@ public class MovingBall extends Applet implements Runnable{
     public void start() {
         setSize(800,600);
         setBackground(Color.yellow);
+        t = new Thread(this);
     }
 
     @Override
