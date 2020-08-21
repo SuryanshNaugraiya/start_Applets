@@ -29,6 +29,22 @@ public class KeyboardListener extends Applet implements KeyListener {
     @Override
     public void keyPressed(KeyEvent e) {
 
+        if(e.getKeyCode()==KeyEvent.VK_RIGHT){
+            x=x+5;
+            repaint();
+        }
+        if(e.getKeyCode()==KeyEvent.VK_LEFT){
+            x=x-5;
+            repaint();
+        }
+        if(e.getKeyCode()==KeyEvent.VK_UP){
+            y=y-5;
+            repaint();
+        }
+        if(e.getKeyCode()==KeyEvent.VK_DOWN){
+            y=y+5;
+            repaint();
+        }
     }
 
     @Override
