@@ -14,7 +14,7 @@ public class Demo1 extends Applet {
         g.setFont(new Font("Arial", Font.BOLD, 14));
         g.drawString("My first demo", 100, 50);
         g.drawLine(100,200,100,0);
-
+        g.setColor(Color.red);
         g.fillRect(100,100,300,50);
 
     }
